@@ -22,6 +22,8 @@ entry = {
 try:
     with open(log_file, "r") as f:
         logs = json.load(f)
+        if isinstance(logs, dict):  # <-- YOUR OLD FILE WAS A DICT
+            logs = [logs]           # Convert to list before appending
 except:
     logs = []
 
