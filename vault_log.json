@@ -11,5 +11,16 @@
         "message": "\ud83e\uddfc Vault JSON fix test",
         "timestamp": "1750277240",
         "logged_at": "2025-06-18T20:07:23.113753Z"
+    },
+    {
+        "hash": "d88bf6693f2cff1f2797a4546b4b2362e518fcb6",
+        "author": "gustavo-art218",
+        "message": "\ud83d\ude80 ETH sync payload",
+        "timestamp": "1750279893",
+        "logged_at": "2025-06-18T20:51:37.074125Z",
+        "wallet_address": "0xA284B3499d4fC3dB457233b3dF476Cc15677CcAd",
+        "eth_price": 2522.76,
+        "eth_balance": 0.0053,
+        "usd_equivalent": 13.37
     }
 ]
