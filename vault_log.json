@@ -1,44 +1,6 @@
-[
-    {
-        "timestamp": "2025-06-17T02:35:07.028335",
-        "eth_price": 2564.13,
-        "eth_balance": 0.005323,
-        "usd_value": 13.65
-    },
-    {
-        "timestamp": "2025-06-17T02:36:08.310972",
-        "eth_price": 2563.65,
-        "eth_balance": 0.005323,
-        "usd_value": 13.65
-    },
-    {
-        "timestamp": "2025-06-17T02:37:09.543535",
-        "eth_price": 2563.12,
-        "eth_balance": 0.005323,
-        "usd_value": 13.64
-    },
-    {
-        "timestamp": "2025-06-17T02:38:10.645540",
-        "eth_price": 2562.88,
-        "eth_balance": 0.005323,
-        "usd_value": 13.64
-    },
-    {
-        "timestamp": "2025-06-17T02:39:11.843885",
-        "eth_price": 2562.88,
-        "eth_balance": 0.005323,
-        "usd_value": 13.64
-    },
-    {
-        "timestamp": "2025-06-17T02:40:12.750595",
-        "eth_price": 2565.3,
-        "eth_balance": 0.005323,
-        "usd_value": 13.65
-    },
-    {
-        "timestamp": "2025-06-17T02:41:13.692260",
-        "eth_price": 2566.2,
-        "eth_balance": 0.005323,
-        "usd_value": 13.66
-    }
-]
+{
+    "wallet_address": "0xA284B3499d4FC3dB457233b3dF476Cc15677cCAd",
+    "eth_price": 2568.13,
+    "eth_balance": 0.0053,
+    "usd_equivalent": 13.67
+}
