@@ -22,5 +22,16 @@
         "eth_price": 2522.76,
         "eth_balance": 0.0053,
         "usd_equivalent": 13.37
+    },
+    {
+        "hash": "97d523668d2c8589692bca2dddaa721e44178751",
+        "author": "gustavo-art218",
+        "message": " Final Save  Vault State Locked",
+        "timestamp": "1750281718",
+        "logged_at": "2025-06-18T21:22:02.381894Z",
+        "wallet_address": "0xA284B3499d4fC3dB457233b3dF476Cc15677CcAd",
+        "eth_price": 2517.26,
+        "eth_balance": 0.0053,
+        "usd_equivalent": 13.34
     }
 ]
