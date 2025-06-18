@@ -21,8 +21,8 @@ entry = {
 }
 
 try:
-    with open(log_file, "r") as f:
-        logs = json.load(f)
+    with open(log_file, "w") as f:
+    json.dump(entry, f, indent=4)
 except:
     logs = []
 
