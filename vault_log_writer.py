@@ -1,13 +1,34 @@
 import json
+import subprocess
+from datetime import datetime
 
-data = {
-    "wallet_address": "0xA284B3499d4FC3dB457233b3dF476Cc15677cCAd",
-    "eth_price": 2568.13,
-    "eth_balance": 0.0053,
-    "usd_equivalent": 13.67
+log_file = "vault_log.json"
+
+# Fetch latest commit details
+commit = subprocess.check_output(
+    ['git', 'log', '-1', '--pretty=format:%H|%an|%s|%ad'],
+    universal_newlines=True
+).strip()
+
+commit_hash, author, message, timestamp = commit.split("|")
+
+entry = {
+    "hash": commit_hash,
+    "author": author,
+    "message": message,
+    "timestamp": timestamp,
+    "logged_at": datetime.utcnow().isoformat() + "Z"
 }
 
-with open("vault_log.json", "w") as file:
-    json.dump(data, file, indent=4)
+try:
+    with open(log_file, "r") as f:
+        logs = json.load(f)
+except:
+    logs = []
 
-print("✅ Vault log written successfully.")
+logs.append(entry)
+
+with open(log_file, "w") as f:
+    json.dump(logs, f, indent=4)
+
+print("📜 Vault updated with new Git commit.")
